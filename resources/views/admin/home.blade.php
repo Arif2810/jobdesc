@@ -24,6 +24,17 @@
       <div class="container-fluid">
         <h1 class="mt-4">Selamat Datang {{ Auth::user()->name }}</h1>
       </div>
+
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <img src="{{ url('images/logo.jfif')}}" style="width: 70%">
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
     <!-- /#page-content-wrapper -->
 
